@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cruz McMinniman's ePortfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e8f5ff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #005b99;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #007acc;
+            color: white;
+            padding: 10px 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        h1, h2 {
+            color: #005b99;
+        }
+
+        .profile-pic {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            display: block;
+            margin: 10px auto;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #e8f5ff;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        footer {
+            background-color: #005b99;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Cruz McMinniman's ePortfolio</h1>
+        <p>Welcome to my professional portfolio! Explore my journey and accomplishments below.</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#resume">Resume</a>
+        <a href="#cover-letter">Cover Letter</a>
+        <a href="#interview">Interview Q&A</a>
+        <a href="#awards">Certifications & Awards</a>
+    </nav>
+
+    <div class="container">
+        <!-- Home Page Section -->
+        <section class="section" id="home">
+            <h2>Home</h2>
+            <img src="path/to/your-photo.jpg" alt="Cruz McMinniman" class="profile-pic">
+            <p><strong>Email:</strong> cruzmcminniman@icloud.com</p>
+            <p>"Science is not only a disciple of reason but also one of romance and passion." - Carl Sagan</p>
+        </section>
+
+        <!-- About Me Page Section -->
+        <section class="section" id="about">
+            <h2>About Me</h2>
+            <p>I am a 9th-grade student at Byron Nelson High School, passionate about physics and chemistry. I aim to pursue a career in these fields and contribute to groundbreaking discoveries. My experiences in science competitions and community service have shaped my professional and personal growth.</p>
+        </section>
+
+        <!-- Resume Page Section -->
+        <section class="section" id="resume">
+            <h2>Resume</h2>
+            <h3>Education</h3>
+            <ul>
+                <li><strong>Byron Nelson High School, Trophy Club, TX</strong> (Aug 2024 - Present)</li>
+                <li><strong>Massachusetts Institute of Technology, Cambridge, MA</strong> (Planned, Aug 2029 - 2034)</li>
+            </ul>
+
+            <h3>Experience</h3>
+            <ul>
+                <li>Team-Based Sports: Developed leadership and teamwork skills.</li>
+                <li>Community Service: Gained experience in problem-solving and collaboration.</li>
+                <li>Science Competitions: Enhanced public speaking and time management.</li>
+            </ul>
+
+            <h3>Skills</h3>
+            <ul>
+                <li>Intermediate coder in HTML and Java</li>
+                <li>Experience with building AI models</li>
+                <li>Proficient in physics and chemistry</li>
+                <li>Conversational in Spanish</li>
+            </ul>
+        </section>
+
+        <!-- Cover Letter Page Section -->
+        <section class="section" id="cover-letter">
+            <h2>Cover Letter</h2>
+            <p>Dear Admissions Committee,</p>
+            <p>I am currently a 9th-grade student at Byron Nelson High School and am planning to apply to MIT for my undergraduate studies. I believe MIT's programs and research align with my career goals in physics and chemistry. Thank you for considering my application.</p>
+            <p>Sincerely, Cruz McMinniman</p>
+        </section>
+
+        <!-- Sample Interview Questions and Answers Section -->
+        <section class="section" id="interview">
+            <h2>Sample Interview Questions and Answers</h2>
+            <p><strong>1. Tell me about yourself.</strong> I am a high school student passionate about physics and chemistry. I have participated in science competitions and community service, which have helped me develop valuable skills.</p>
+            <p><strong>2. Why do you want to study at MIT?</strong> MIT's commitment to innovation aligns perfectly with my career goals.</p>
+        </section>
+
+        <!-- Certifications/Awards/Qualifications Section -->
+        <section class="section" id="awards">
+            <h2>Certifications & Awards</h2>
+            <ul>
+                <li>Certification in HTML Coding</li>
+                <li>Completion of Welding and Engineering Courses</li>
+                <li>Participation in Multiple Science Competitions</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Cruz McMinniman | All rights reserved</p>
+    </footer>
+
+</body>
+</html>
